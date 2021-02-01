@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.redd.it/pdni81vuzurz.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h1 class="card-title">{{this.film.title}}</h1>
+                  <p class="card-text">Episode: {{this.film.episode_id}} </p>
+                  <p class="card-text">Director: {{this.film.director}} </p>
+                  <p class="card-text">Producer: {{this.film.producer}} </p>
+                  <p class="card-text">Release Date: {{this.film.release_date}} </p>
+                  <a [routerLink]="['/filmlist']" class="btn btn-success">Back to Films</a>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>

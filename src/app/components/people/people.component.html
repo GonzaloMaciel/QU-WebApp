@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.ytimg.com/vi/jmfWF8-It8g/maxresdefault.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h1 class="card-title">{{this.people.name}}</h1>
+                  <p class="card-text">Birth Year: {{this.people.birth_year}} </p>
+                  <p class="card-text">Eye Color: {{this.people.eye_color}} </p>
+                  <p class="card-text">Gender: {{this.people.gender}} </p>
+                  <p class="card-text">Height: {{this.people.height}} </p>
+                  <a [routerLink]="['/peoplelist']" class="btn btn-success">Back to Peoples</a>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>

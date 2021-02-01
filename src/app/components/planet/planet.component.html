@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/c8/92/85/c89285262e9a1e48f9c845a45f20a8e3.png" alt="Card image cap">
+                <div class="card-body">
+                  <h1 class="card-title">{{this.planet.name}}</h1>
+                  <p class="card-text">Climate: {{this.planet.climate}} </p>
+                  <p class="card-text">Diameter: {{this.planet.diameter}} </p>
+                  <p class="card-text">Gravity: {{this.planet.gravity}} </p>
+                  <p class="card-text">Population: {{this.planet.population}} </p>
+                  <p class="card-text">Terrain: {{this.planet.terrain}} </p>
+                  <p class="card-text">Created: {{this.planet.created}} </p>
+                  <a [routerLink]="['/planetlist']" class="btn btn-success">Back to Planets</a>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>
